@@ -1,7 +1,7 @@
 repos
 =====
 
-A simple caching mechanism, that can be used if you are making your own.
+A simple caching mechanism for APIs, that can be used if you are making your own API.
 
 Say for example you want to cache following apis.
 
