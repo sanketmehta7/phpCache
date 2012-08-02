@@ -1,4 +1,4 @@
-repos
+Simple API Caching
 =====
 
 A simple caching mechanism for APIs, that can be used if you are making your own API.
