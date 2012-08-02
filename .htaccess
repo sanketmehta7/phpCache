@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{QUERY_STRING} !(nocache)
+RewriteRule ^(.*)$ index.php?pageq=$1 [L,QSA]
