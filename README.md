@@ -1,4 +1,4 @@
-`Simple API Caching
+Simple API Caching
 =====
 
 A simple caching mechanism for APIs, that can be used if you are making your own API.
@@ -8,12 +8,14 @@ Example
 
 Say for example you want to cache following apis.
 
-http://localhost/APIs/JsonAPI/getUser.php?id=3
-http://localhost/APIs/JsonAPI/getDepartments.php
+`http://localhost/APIs/JsonAPI/getUser.php?id=3
+
+http://localhost/APIs/JsonAPI/getDepartments.php`
 
 You need to change following parameters in index.php
 
 `$host = $protocol."://localhost/APIs/";
+
 $endpoint = "JsonAPI/";`
 
 Change it to url and endpoint path of urs.
@@ -24,7 +26,7 @@ stores amount of time in seconds to cache that particular api.
 
 In case you wan to fetch nocached data you can append nocache=true parameter to return the same. For eg.
 
-http://localhost/APIs/JsonAPI/getUser.php?id=3&nocache=true
+`http://localhost/APIs/JsonAPI/getUser.php?id=3&nocache=true`
 
 will bypass the caching mechanism and will return nocached data...
 
