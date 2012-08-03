@@ -1,7 +1,10 @@
-Simple API Caching
+`Simple API Caching
 =====
 
 A simple caching mechanism for APIs, that can be used if you are making your own API.
+
+Example
+-------
 
 Say for example you want to cache following apis.
 
@@ -10,12 +13,12 @@ http://localhost/APIs/JsonAPI/getDepartments.php
 
 You need to change following parameters in index.php
 
-$host = $protocol."://localhost/APIs/";
-$endpoint = "JsonAPI/";
+`$host = $protocol."://localhost/APIs/";
+$endpoint = "JsonAPI/";`
 
 Change it to url and endpoint path of urs.
 
-$pages_to_cache_array = array("getArtistsAPI.php"=>12*60*60,"categoryAPI.php"=>24*60*60);
+`$pages_to_cache_array = array("getArtistsAPI.php"=>12*60*60,"categoryAPI.php"=>24*60*60);`
 
 stores amount of time in seconds to cache that particular api.
 
