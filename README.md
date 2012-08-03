@@ -9,13 +9,11 @@ Example
 Say for example you want to cache following apis.
 
 `http://localhost/APIs/JsonAPI/getUser.php?id=3
-
 http://localhost/APIs/JsonAPI/getDepartments.php`
 
 You need to change following parameters in index.php
 
 `$host = $protocol."://localhost/APIs/";
-
 $endpoint = "JsonAPI/";`
 
 Change it to url and endpoint path of urs.
